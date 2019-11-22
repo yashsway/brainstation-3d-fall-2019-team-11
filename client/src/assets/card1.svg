@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="750px" height="368px" viewBox="0 0 750 368" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>card 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="660" height="230" rx="4"></rect>
+        <filter x="-15.9%" y="-45.7%" width="131.8%" height="191.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="30" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0509803922   0 0 0 0 0.145098039   0 0 0 0 0.243137255  0 0 0 0.304359703 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-690.000000, -1303.000000)">
+            <g id="card-1" transform="translate(759.000000, 1372.000000)">
+                <g id="Rectangle-20">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="Highest-Rated" font-family="Avenir-Heavy, Avenir" font-size="30" font-weight="600" fill="#FFCA00">
+                    <tspan x="59" y="72">Highest Rated</tspan>
+                </text>
+                <text id="Indian-coffee-is-sai" opacity="0.400000006" font-family="Avenir-Light, Avenir" font-size="22" font-weight="300" line-spacing="32" fill="#0D253E">
+                    <tspan x="59" y="102">Indian coffee is said to be the finest coffee grown in </tspan>
+                    <tspan x="59" y="134">the shade rather than direct sunlight anywhere in the </tspan>
+                    <tspan x="59" y="166">world. Come socialize with people just like you!</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
