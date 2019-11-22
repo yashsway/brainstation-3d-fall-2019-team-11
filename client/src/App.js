@@ -22,6 +22,8 @@ import card1 from './assets/card1.svg';
 import card2 from './assets/card2.svg';
 import card3 from './assets/card3.svg';
 import top5modal from './assets/Top 5 Modal (1).svg';
+import backgroundimg1 from './assets/brooke-lark-lcZ9NxhOSlo-unsplash.png';
+import backgroundimg2 from './assets/spice.png'
 
 
 class App extends React.Component {
@@ -70,6 +72,8 @@ class App extends React.Component {
         <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i&display=swap" rel="stylesheet"></link>
       </Helmet>
       <section className="map">
+        <img className="backgroundimg1" src={backgroundimg1}/>
+        <img className="backgroundimg2" src={backgroundimg2}/>
         <div className="map-container">
           <img className="map-img" src={delhi}/>
           <img onClick={this.handleJung} src={marker} className="jung"></img>

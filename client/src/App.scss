@@ -7,6 +7,21 @@
   width: 100%;
   height: 100vh;
 }
+.backgroundimg1{
+  width: 800px;
+  z-index: -100;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.backgroundimg2{
+  width: 500px;
+  z-index: -100;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
 
 .App {
   display: flex;
