@@ -80,7 +80,7 @@ class App extends React.Component {
           <img onClick={this.handleKumar} src={marker} className="kumar"></img>
         </div>
         <form className="search-bar"> 
-          <label className="search-bar-label">Where would you like to eat in New Delhi ?</label>
+          <label className="search-bar-label">What would you like to eat in New Delhi ?</label>
           <input className="search-bar-input"></input>
           <div className="rotating-text">
             <ReactRotatingText items={['Indian','test']}/>
