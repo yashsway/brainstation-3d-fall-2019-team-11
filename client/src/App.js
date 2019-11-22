@@ -64,7 +64,6 @@ class App extends React.Component {
     <div className="background__app">
       <Background></Background>
       <Background></Background>
-
     </div>
     <div className="App">
       <Helmet>
@@ -84,7 +83,7 @@ class App extends React.Component {
           <label className="search-bar-label">Where would you like to eat in New Delhi ?</label>
           <input className="search-bar-input"></input>
           <div className="rotating-text">
-            <ReactRotatingText items={['Indian','Chinese','Ducks','Mcdonalds']}/>
+            <ReactRotatingText items={['Indian','test']}/>
           </div>
         </form>
       </section>
