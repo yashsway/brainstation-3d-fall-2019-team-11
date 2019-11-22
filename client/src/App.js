@@ -11,7 +11,8 @@ import Card from './components/Card/Card';
 import close from './assets/Close-X.svg';
 import marker  from './assets/marker-tag.svg';
 import delhi from './assets/dehli -01.svg';
-import fish from './assets/fish@2x.svg';
+import clock from './assets/clock.svg';
+import cafe from './assets/coffee.svg';
 import fork from './assets/fork.svg';
 import spinach from './assets/spinach.svg';
 import kumar from './assets/kumar-samosa-wala.svg';
@@ -80,7 +81,7 @@ class App extends React.Component {
           <img onClick={this.handleKumar} src={marker} className="kumar"></img>
         </div>
         <form className="search-bar"> 
-          <label className="search-bar-label">What would you like to eat in New Delhi ?</label>
+          <label className="search-bar-label">What would you like to eat in<span className="newdelhi"> New Delhi</span>?</label>
           <div className="rotating-text">
             <ReactRotatingText items={['Indian','Fast Food','Cafe','North Indian','Italian']}/>
           </div>
@@ -88,9 +89,9 @@ class App extends React.Component {
       </section>
       <section className="cuisine">
         <div className="cuisine__card-container">
-          <Card onClick={this.handleTop5} title="North Indian Chinese" image={fish}></Card>
-          <Card title="I can eat anything" image={fork}></Card>
-          <Card title="Vegetarian" image={spinach}></Card>
+          <Card onClick={this.handleTop5} title="North Indian Chinese" image={fork}></Card>
+          <Card title="Cafe" image={cafe}></Card>
+          <Card title="Fast Food" image={clock}></Card>
         </div>
       </section>
       <section className="">
