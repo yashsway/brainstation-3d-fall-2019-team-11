@@ -81,9 +81,8 @@ class App extends React.Component {
         </div>
         <form className="search-bar"> 
           <label className="search-bar-label">What would you like to eat in New Delhi ?</label>
-          <input className="search-bar-input"></input>
           <div className="rotating-text">
-            <ReactRotatingText items={['Indian','test']}/>
+            <ReactRotatingText items={['Indian','Fast Food','Cafe','North Indian','Italian']}/>
           </div>
         </form>
       </section>
@@ -91,7 +90,7 @@ class App extends React.Component {
         <div className="cuisine__card-container">
           <Card onClick={this.handleTop5} title="North Indian Chinese" image={fish}></Card>
           <Card title="I can eat anything" image={fork}></Card>
-          <Card title="Mughalai" image={spinach}></Card>
+          <Card title="Vegetarian" image={spinach}></Card>
         </div>
       </section>
       <section className="">
@@ -128,7 +127,9 @@ class App extends React.Component {
     <section className="socials">
       <div className="socials__container">
         <img src={banner} className="socials__banner"/>
-        <img className="highest-rated" src={card1}/>
+        <div className = "flip-card">
+          <img className="highest-rated front" src={card1}/>
+        </div>
         <img className="most-affordable" src={card2}/>
         <img className="connect" src={card3}/>
       </div>
